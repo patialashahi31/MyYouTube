@@ -1,0 +1,84 @@
+Time Complexity
+
+for(i=1;i<n;i++){
+	print(i)
+}
+
+O(n)
+
+for(i=1;i<n;i++){
+	for(j=1;j<n;j++){
+	    print(j)
+	}
+}
+
+O(n*n)
+
+
+for(i=1;i<n;i++){
+	for(j=1;j<m;j++){
+	print(i)
+	}
+}
+
+O(m*n)
+
+
+for(i=1;i<n;i++){
+	print(i)
+}
+for(j=1;j<n;j++){
+	print(j)
+}
+
+O(n) + O(n) = O(2n) === O(n)
+
+
+for(i=1;i<n;i=i*2){
+	print(i)
+}
+
+1,2,4,8....
+           2
+         2    2  = 4
+        2 2   2 2 = 8
+        O(log2n)
+
+ for(i=n;i>=1;i=i/2){
+ print(i)
+ }
+ O(log2 n)
+
+
+      n
+    n/2   n/2
+
+
+for(i=1;i<n;i=i*3){
+	print(i)
+}
+O(log3 n)
+
+for(i=1;i<n;i++){
+	if(i%2==0){
+	print(i) 
+	}
+}
+
+O(n)
+
+
+
+O(1) < O(logn) < O(n) <O(nlogn) < O(n*n) .....
+
+
+
+x = x + 1  O(1)
+
+O(logn ) == Binary search
+O(n)  == Linear search
+O(nlogn) == Sorting
+O(n*n) == 2 loops
+O(n!) == Recursion
+
+
